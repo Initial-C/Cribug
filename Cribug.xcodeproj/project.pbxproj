@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52CB09CF21807FF100BB35FF /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09C921807FF000BB35FF /* MCManager.swift */; };
+		52CB09D021807FF100BB35FF /* MCCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09CA21807FF000BB35FF /* MCCache.swift */; };
+		52CB09D121807FF100BB35FF /* MCTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09CB21807FF100BB35FF /* MCTask.swift */; };
+		52CB09D221807FF100BB35FF /* MCCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09CC21807FF100BB35FF /* MCCommon.swift */; };
+		52CB09D321807FF100BB35FF /* MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09CD21807FF100BB35FF /* MCSessionDelegate.swift */; };
+		52CB09D421807FF100BB35FF /* MCDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB09CE21807FF100BB35FF /* MCDownloadTask.swift */; };
 		E1C1DD3E206C91EF003665A9 /* Cribug.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C1DD3C206C91EF003665A9 /* Cribug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1C1DD4A206C9241003665A9 /* MCDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD44206C9241003665A9 /* MCDownloadTask.swift */; };
-		E1C1DD4B206C9241003665A9 /* MCCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD45206C9241003665A9 /* MCCache.swift */; };
-		E1C1DD4C206C9241003665A9 /* MCCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD46206C9241003665A9 /* MCCommon.swift */; };
-		E1C1DD4D206C9241003665A9 /* MCTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD47206C9241003665A9 /* MCTask.swift */; };
-		E1C1DD4E206C9241003665A9 /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD48206C9241003665A9 /* MCManager.swift */; };
-		E1C1DD4F206C9241003665A9 /* MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD49206C9241003665A9 /* MCSessionDelegate.swift */; };
 		E1C1DD57206C92FE003665A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1DD56206C92FE003665A9 /* AppDelegate.swift */; };
 		E1C1DD5C206C92FE003665A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C1DD5A206C92FE003665A9 /* Main.storyboard */; };
 		E1C1DD5E206C92FE003665A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1DD5D206C92FE003665A9 /* Assets.xcassets */; };
@@ -56,15 +56,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		52CB09C921807FF000BB35FF /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCManager.swift; sourceTree = "<group>"; };
+		52CB09CA21807FF000BB35FF /* MCCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCache.swift; sourceTree = "<group>"; };
+		52CB09CB21807FF100BB35FF /* MCTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCTask.swift; sourceTree = "<group>"; };
+		52CB09CC21807FF100BB35FF /* MCCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCommon.swift; sourceTree = "<group>"; };
+		52CB09CD21807FF100BB35FF /* MCSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCSessionDelegate.swift; sourceTree = "<group>"; };
+		52CB09CE21807FF100BB35FF /* MCDownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCDownloadTask.swift; sourceTree = "<group>"; };
 		E1C1DD39206C91EF003665A9 /* Cribug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cribug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C1DD3C206C91EF003665A9 /* Cribug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cribug.h; sourceTree = "<group>"; };
 		E1C1DD3D206C91EF003665A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1C1DD44206C9241003665A9 /* MCDownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCDownloadTask.swift; sourceTree = "<group>"; };
-		E1C1DD45206C9241003665A9 /* MCCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCache.swift; sourceTree = "<group>"; };
-		E1C1DD46206C9241003665A9 /* MCCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCommon.swift; sourceTree = "<group>"; };
-		E1C1DD47206C9241003665A9 /* MCTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCTask.swift; sourceTree = "<group>"; };
-		E1C1DD48206C9241003665A9 /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCManager.swift; sourceTree = "<group>"; };
-		E1C1DD49206C9241003665A9 /* MCSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCSessionDelegate.swift; sourceTree = "<group>"; };
 		E1C1DD54206C92FE003665A9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C1DD56206C92FE003665A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C1DD5B206C92FE003665A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,13 +123,13 @@
 			isa = PBXGroup;
 			children = (
 				E1C1DD3C206C91EF003665A9 /* Cribug.h */,
-				E1C1DD46206C9241003665A9 /* MCCommon.swift */,
-				E1C1DD45206C9241003665A9 /* MCCache.swift */,
-				E1C1DD47206C9241003665A9 /* MCTask.swift */,
-				E1C1DD44206C9241003665A9 /* MCDownloadTask.swift */,
-				E1C1DD48206C9241003665A9 /* MCManager.swift */,
-				E1C1DD49206C9241003665A9 /* MCSessionDelegate.swift */,
 				E1C1DD3D206C91EF003665A9 /* Info.plist */,
+				52CB09CA21807FF000BB35FF /* MCCache.swift */,
+				52CB09CC21807FF100BB35FF /* MCCommon.swift */,
+				52CB09CE21807FF100BB35FF /* MCDownloadTask.swift */,
+				52CB09C921807FF000BB35FF /* MCManager.swift */,
+				52CB09CD21807FF100BB35FF /* MCSessionDelegate.swift */,
+				52CB09CB21807FF100BB35FF /* MCTask.swift */,
 			);
 			path = Cribug;
 			sourceTree = "<group>";
@@ -212,14 +212,14 @@
 		E1C1DD30206C91EF003665A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = MT;
+				CLASSPREFIX = MC;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = InitialC;
 				TargetAttributes = {
 					E1C1DD38206C91EF003665A9 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					E1C1DD53206C92FE003665A9 = {
@@ -273,12 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C1DD4D206C9241003665A9 /* MCTask.swift in Sources */,
-				E1C1DD4E206C9241003665A9 /* MCManager.swift in Sources */,
-				E1C1DD4C206C9241003665A9 /* MCCommon.swift in Sources */,
-				E1C1DD4B206C9241003665A9 /* MCCache.swift in Sources */,
-				E1C1DD4A206C9241003665A9 /* MCDownloadTask.swift in Sources */,
-				E1C1DD4F206C9241003665A9 /* MCSessionDelegate.swift in Sources */,
+				52CB09D421807FF100BB35FF /* MCDownloadTask.swift in Sources */,
+				52CB09D321807FF100BB35FF /* MCSessionDelegate.swift in Sources */,
+				52CB09D221807FF100BB35FF /* MCCommon.swift in Sources */,
+				52CB09D021807FF100BB35FF /* MCCache.swift in Sources */,
+				52CB09CF21807FF100BB35FF /* MCManager.swift in Sources */,
+				52CB09D121807FF100BB35FF /* MCTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
