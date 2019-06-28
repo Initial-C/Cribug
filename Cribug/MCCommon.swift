@@ -154,7 +154,7 @@ extension Cribug where Base: UIDevice {
     public var freeDiskSpaceInBytes: Int64 {
         if #available(iOS 11.0, *) {
             if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
-                return space ?? 0
+                return space 
             } else {
                 return 0
             }

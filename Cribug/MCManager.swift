@@ -340,13 +340,13 @@ extension MCManager {
                 task!.progressHandler = progressHandler
                 task!.successHandler = successHandler
                 task!.failureHandler = failureHandler
-                if let index = URLStrings.index(of: url.absoluteString),
+                if let index = URLStrings.firstIndex(of: url.absoluteString),
                     let fileName = fileNames?.safeObjectAtIndex(index)  {
                     task!.fileName = fileName
                 }
             } else {
                 var fileName: String?
-                if let fileNames = fileNames, let index = URLStrings.index(of: url.absoluteString) {
+                if let fileNames = fileNames, let index = URLStrings.firstIndex(of: url.absoluteString) {
                     fileName = fileNames.safeObjectAtIndex(index)
                 }
 
@@ -515,7 +515,7 @@ extension MCManager {
         if task.status == .remove {
             cache.remove(task, completely: isRemoveCompletely)
         }
-        guard let tasksIndex = tasks.index(where: { $0.URLString == task.URLString }) else { return  }
+        guard let tasksIndex = tasks.firstIndex(where: { $0.URLString == task.URLString }) else { return  }
         tasks.remove(at: tasksIndex)
 
 

@@ -283,7 +283,7 @@ extension MCCache {
         ioQueue.async {
             guard var taskInfoArray = self.retrieveTaskInfos() else { return }
             let path = (self.downloadPath as NSString).appendingPathComponent("\(self.name)Tasks.plist")
-            if let index = taskInfoArray.index(where: { $0["URLString"] as! String == task.URLString }) {
+            if let index = taskInfoArray.firstIndex(where: { $0["URLString"] as! String == task.URLString }) {
                 taskInfoArray.remove(at: index)
                 let _ = (taskInfoArray as NSArray).write(toFile: path, atomically: true)
             }
