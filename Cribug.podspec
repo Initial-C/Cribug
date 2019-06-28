@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Cribug'
-  s.version          = '0.0.1'
-  s.swift_version = '4.0'
+  s.version          = '0.1.0'
+  s.swift_version = '5.0'
   s.summary          = 'Cribug is a lightweight, pure-Swift download framework.'
 
 
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Cribug/*.swift'
   s.requires_arc = true
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
 end
